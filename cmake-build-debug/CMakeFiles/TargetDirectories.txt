@@ -1,0 +1,3 @@
+/home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/CMakeFiles/LibMgtSys.dir
+/home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/CMakeFiles/rebuild_cache.dir
