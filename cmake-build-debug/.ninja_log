@@ -1,3 +1,10 @@
 # ninja log v6
+3	677	1732893197789536119	CMakeFiles/LibMgtSys.dir/src/main.cpp.o	61d7a65a7754c0a5
+677	802	1732893198463534200	LibMgtSys	9645e8dbc1c94083
+2	1649	1732888102915015036	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	644be46a4029b2c7
+2	6760	1732888102915015036	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	c5a5e76eb579d10f
 1	978	1732880691440271481	CMakeFiles/LibMgtSys.dir/main.cpp.o	b842368fbbdf5f30
-980	1132	1732880692419311600	LibMgtSys	7f1017c069b8e78a
+10	443	1732905954873912728	build.ninja	746f5059df957ce3
+6761	6824	1732888109674026073	lib/libgtestd.a	523c5a44e4aecaf
+6824	6832	1732888109737026176	lib/libgtest_maind.a	4883f912e1153d
+3	412	1732905954873912728	build.ninja	746f5059df957ce3
