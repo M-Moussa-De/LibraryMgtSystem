@@ -55,6 +55,24 @@ build CMakeFiles/LibMgtSys.dir/src/main.cpp.o: CXX_COMPILER__LibMgtSys_unscanned
   OBJECT_DIR = CMakeFiles/LibMgtSys.dir
   OBJECT_FILE_DIR = CMakeFiles/LibMgtSys.dir/src
 
+build CMakeFiles/LibMgtSys.dir/src/media/Media.cpp.o: CXX_COMPILER__LibMgtSys_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/src/media/Media.cpp || cmake_object_order_depends_target_LibMgtSys
+  DEP_FILE = CMakeFiles/LibMgtSys.dir/src/media/Media.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LibMgtSys.dir
+  OBJECT_FILE_DIR = CMakeFiles/LibMgtSys.dir/src/media
+
+build CMakeFiles/LibMgtSys.dir/src/media/Book.cpp.o: CXX_COMPILER__LibMgtSys_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/src/media/Book.cpp || cmake_object_order_depends_target_LibMgtSys
+  DEP_FILE = CMakeFiles/LibMgtSys.dir/src/media/Book.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LibMgtSys.dir
+  OBJECT_FILE_DIR = CMakeFiles/LibMgtSys.dir/src/media
+
+build CMakeFiles/LibMgtSys.dir/include/structs/MediaDetails.cpp.o: CXX_COMPILER__LibMgtSys_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/include/structs/MediaDetails.cpp || cmake_object_order_depends_target_LibMgtSys
+  DEP_FILE = CMakeFiles/LibMgtSys.dir/include/structs/MediaDetails.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LibMgtSys.dir
+  OBJECT_FILE_DIR = CMakeFiles/LibMgtSys.dir/include/structs
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LibMgtSys
@@ -63,7 +81,7 @@ build CMakeFiles/LibMgtSys.dir/src/main.cpp.o: CXX_COMPILER__LibMgtSys_unscanned
 #############################################
 # Link the executable LibMgtSys
 
-build LibMgtSys: CXX_EXECUTABLE_LINKER__LibMgtSys_Debug CMakeFiles/LibMgtSys.dir/src/main.cpp.o
+build LibMgtSys: CXX_EXECUTABLE_LINKER__LibMgtSys_Debug CMakeFiles/LibMgtSys.dir/src/main.cpp.o CMakeFiles/LibMgtSys.dir/src/media/Media.cpp.o CMakeFiles/LibMgtSys.dir/src/media/Book.cpp.o CMakeFiles/LibMgtSys.dir/include/structs/MediaDetails.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LibMgtSys.dir
   POST_BUILD = :
@@ -488,6 +506,20 @@ build _deps/googletest-build/googletest/install/strip: phony _deps/googletest-bu
 
 build cmake_object_order_depends_target_runTests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
+build tests/CMakeFiles/runTests.dir/__/src/media/Media.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/src/media/Media.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = tests/CMakeFiles/runTests.dir/__/src/media/Media.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests/CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/runTests.dir/__/src/media
+
+build tests/CMakeFiles/runTests.dir/__/src/media/Book.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/src/media/Book.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = tests/CMakeFiles/runTests.dir/__/src/media/Book.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests/CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/runTests.dir/__/src/media
+
 build tests/CMakeFiles/runTests.dir/test_main.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/tests/test_main.cpp || cmake_object_order_depends_target_runTests
   DEP_FILE = tests/CMakeFiles/runTests.dir/test_main.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -495,21 +527,35 @@ build tests/CMakeFiles/runTests.dir/test_main.cpp.o: CXX_COMPILER__runTests_unsc
   OBJECT_DIR = tests/CMakeFiles/runTests.dir
   OBJECT_FILE_DIR = tests/CMakeFiles/runTests.dir
 
+build tests/CMakeFiles/runTests.dir/media/MediaTest.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/tests/media/MediaTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = tests/CMakeFiles/runTests.dir/media/MediaTest.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests/CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/runTests.dir/media
+
+build tests/CMakeFiles/runTests.dir/media/BookTest.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /home/mm/Documents/Solutions/LibMgtSys/tests/media/BookTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = tests/CMakeFiles/runTests.dir/media/BookTest.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = tests/CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/runTests.dir/media
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target runTests
 
 
 #############################################
-# Link the executable tests/runTests
+# Link the executable bin/runTests
 
-build tests/runTests: CXX_EXECUTABLE_LINKER__runTests_Debug tests/CMakeFiles/runTests.dir/test_main.cpp.o | lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a || lib/libgtest_maind.a lib/libgtestd.a
+build bin/runTests: CXX_EXECUTABLE_LINKER__runTests_Debug tests/CMakeFiles/runTests.dir/__/src/media/Media.cpp.o tests/CMakeFiles/runTests.dir/__/src/media/Book.cpp.o tests/CMakeFiles/runTests.dir/test_main.cpp.o tests/CMakeFiles/runTests.dir/media/MediaTest.cpp.o tests/CMakeFiles/runTests.dir/media/BookTest.cpp.o | lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a || lib/libgtest_maind.a lib/libgtestd.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libgtestd.a  lib/libgtest_maind.a  -lpthread  lib/libgtestd.a
   OBJECT_DIR = tests/CMakeFiles/runTests.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = tests/runTests
+  TARGET_FILE = bin/runTests
   TARGET_PDB = runTests.dbg
 
 
@@ -596,7 +642,7 @@ build libgtest_maind.a: phony lib/libgtest_maind.a
 
 build libgtestd.a: phony lib/libgtestd.a
 
-build runTests: phony tests/runTests
+build runTests: phony bin/runTests
 
 # =============================================================================
 # Folder targets.
@@ -634,7 +680,7 @@ build _deps/googletest-build/googletest/all: phony lib/libgtestd.a lib/libgtest_
 #############################################
 # Folder: /home/mm/Documents/Solutions/LibMgtSys/cmake-build-debug/tests
 
-build tests/all: phony tests/runTests
+build tests/all: phony bin/runTests
 
 # =============================================================================
 # Built-in targets
