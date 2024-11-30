@@ -1,0 +1,17 @@
+#ifndef MEDIALANGUAGES_H
+#define MEDIALANGUAGES_H
+
+enum class MediaLanguage {
+   ENGLISH,
+   SPANISH,
+   FRENCH,
+   GERMAN,
+   CHINESE,
+   JAPANESE,
+   RUSSIAN,
+   ARABIC,
+   ITALIAN,
+   PORTUGUESE
+};
+
+#endif //MEDIALANGUAGES_H

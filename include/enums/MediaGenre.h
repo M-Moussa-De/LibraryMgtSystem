@@ -1,0 +1,17 @@
+#ifndef MEDIAGENRES_H
+#define MEDIAGENRES_H
+
+enum class MediaGenre {
+    FICTION,
+    NON_FICTION,
+    SCIENCE,
+    TECHNOLOGY,
+    LITERATURE,
+    PHILOSOPHY,
+    HISTORY,
+    ART,
+    ECONOMICS,
+    PSYCHOLOGY
+};
+
+#endif //MEDIAGENRES_H
