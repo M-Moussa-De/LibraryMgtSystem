@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "john_doe",
+      "role": "STAFF",
+      "password": "$2a$12$UwEV2t3H5KbCEMKjjbKk7eZJ0.PfON8ZlYyC1N2s9wN1KptkFuyFi",
+      "personal_info": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "0123456789",
+        "Address": {
+          "street": "Müller street",
+          "houseNr": "10",
+          "zip": "16452",
+          "city": "Stuttgart",
+          "country": "Germany"
+        }
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 #include "../enums/MediaGenre.h"
 #include "../enums/MediaLanguage.h"
 #include "../enums/MediaStatus.h"
-#include "./../structs/MediaDetails.cpp"
+#include "./../structs/MediaDetails.h"
 
 class Media {
 private:
@@ -24,6 +24,7 @@ public:
     : title(details.title), creator(details.creator), ISBN(details.isbn),
       publisher(details.publisher), genre(details.genre), language(details.language),
       edition(details.edition), status(details.status) {}
+
     // Virtual Destructor
     virtual ~Media() = default;
 

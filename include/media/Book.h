@@ -7,11 +7,12 @@ private:
     int pagesNr;
 public:
     // Constructor using helper struct
-    Book(const MediaDetails& details, int pn)
+    Book(const MediaDetails& details, const int pn)
         : Media(details), pagesNr(pn) {}
     // Destructor
     ~Book() override = default;
 
+    // Getters
     [[nodiscard]] int getPagesNr() const;
 
     void displayDetails() const override;

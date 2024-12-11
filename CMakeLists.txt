@@ -21,7 +21,27 @@ add_executable(LibMgtSys src/main.cpp
         include/media/Book.h
         include/enums/MediaGenre.h
         include/enums/MediaLanguage.h
-        include/structs/MediaDetails.cpp)
+        include/structs/MediaDetails.h
+        src/media/EBook.cpp
+        include/media/EBook.h
+        src/media/CD.cpp
+        include/media/CD.h
+        src/media/Newsletter.cpp
+        include/media/Newsletter.h
+        include/enums/UserRole.h
+        src/user/User.cpp
+        include/user/User.h
+        include/structs/Address.h
+        src/user/Student.cpp
+        include/user/Student.h
+        include/structs/PersonalInfo.h
+        src/user/Staff.cpp
+        include/user/Staff.h
+        src/user/Guest.cpp
+        include/user/Guest.h
+        src/auth/Auth.cpp
+        include/auth/Auth.h
+)
 
 # Link your main executable (if needed)
 target_link_libraries(LibMgtSys)

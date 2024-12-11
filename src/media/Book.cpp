@@ -1,6 +1,7 @@
 #include <iostream>
 #include "./../../include/media/Book.h"
 
+// Getters
 int Book::getPagesNr() const { return pagesNr; }
 
 void Book::displayDetails() const {

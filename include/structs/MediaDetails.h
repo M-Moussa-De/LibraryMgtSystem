@@ -1,3 +1,6 @@
+#ifndef MEDIADETAILS_H
+#define MEDIADETAILS_H
+
 #include <string>
 #include "../enums/MediaGenre.h"
 #include "../enums/MediaLanguage.h"
@@ -19,3 +22,4 @@ struct MediaDetails {
                  const std::string &p, MediaGenre g, MediaLanguage l, const std::string &e, const MediaStatus s = MediaStatus::AVAILABLE)
         : title(t), creator(c), isbn(isbn), publisher(p), genre(g), language(l), edition(e), status(s) {}
 };
+#endif //MEDIADETAILS_H
