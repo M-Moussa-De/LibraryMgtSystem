@@ -1,0 +1,18 @@
+{
+  "database": {
+    "user_data_path": "./data/user_data.json",
+    "logs_path": "./data/logs/system_log.json"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "authentication": {
+    "password_hashing_algorithm": "bcrypt",
+    "salt_length": 16
+  },
+  "connection": {
+    "max_connections": 10,
+    "timeout": 30
+  }
+}
